@@ -80,7 +80,7 @@ module.exports.create = async (req, res) => {
           }
         );
       } else {
-        console.log("error", "Email already registed!");
+        console.log("error", "Email already registered!");
         return res.redirect("back");
       }
     });

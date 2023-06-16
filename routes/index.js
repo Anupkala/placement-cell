@@ -3,10 +3,10 @@ const express = require("express");
 const routers = express.Router();
 
 // user routes
-routers.use("/", require("./users"));
+routers.use("/", require("./user"));
 
 // student routes
-routers.use("/student", require("./students"));
+routers.use("/student", require("./student"));
 
 // interview routes
 routers.use("/interview", require("./interview"));
